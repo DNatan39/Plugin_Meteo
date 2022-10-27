@@ -2,7 +2,7 @@
 
 
 class connect {
-    private function dbConnect()
+    public function dbConnect()
     {
         try {
             $database = new PDO('mysql:host=localhost;dbname=wp-options;charset=utf8', 'root', '');
