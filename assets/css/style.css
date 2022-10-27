@@ -1,4 +1,31 @@
 
+
+
+/* Générales */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w100{
+    width: 100%;
+}
+.w50{
+    width: 50%;
+}
+.h100{
+    height: 100%;
+}
+.h100vh{
+    height: 100vh;
+}
+.minh90{
+    min-height: 90vh;
+}
+.minh100{
+    min-height: 100vh;
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +33,34 @@
 }
 #wpwrap{
     background: #ffff6290;
+}
+#wpbody-content {
+    padding: 0 !important;
+}
+
+/******************************** Conteneur *********************************/
+#containerdiv{
+    flex-direction: column;
+}
+#containerdiv input{
+    margin: 20px;
+    width: 450px;
+}
+#containerdiv button{
+    background: brown;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+#containerdiv button:hover{
+    animation: animate 0.5s linear infinite;
+}
+@keyframes animate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }

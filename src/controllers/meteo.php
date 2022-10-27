@@ -5,6 +5,4 @@ include_once('../../views/page.php');
 
 function creatTable() {
     $data = dbConnect();
-
-    var_dump('dbConnect()');
 }
