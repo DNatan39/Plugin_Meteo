@@ -16,7 +16,7 @@ function MyPluginMenu(){
         'Météo', // Page Title
         'Météo', // Menu Title
         'manage_options', // Capabiliy
-        plugin_dir_path(__FILE__)  .'views/page.php'
+        plugin_dir_path(__FILE__)  .'page.php'
     );
 }
 
